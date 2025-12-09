@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <section>
+      <form action="/portfolio" method="POST">
+        <fieldset>
+          <h1>ติดต่อเรา | contact</h1>
+          <p>สามารถแสดงความคิดเห็นเพิ่มเติม</p>
+          <label for="contact-from-name">ชื่อ:</label>
+          <br />
+          <input type="text" id="contact-from-name" name="name" />
+          <br />
+
+          <label for="contact-from-email">email:</label>
+          <br />
+          <input type="email" id="contact-from-email" name="email" required />
+          <br />
+
+          <label for="message">ข้อความติดต่อ:</label>
+          <br />
+          <textarea name="message" id="message" required></textarea>
+          <br />
+
+          <button type="submit">ส่งข้อความ</button>
+          <button type="reset">ยกเลิก</button>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
